@@ -7,6 +7,7 @@ module.exports = {
 
         return res.json(ongs);
     },
+    
     async create(req, res) {
         const { name, email, whatsapp, city, uf } = req.body;
 
